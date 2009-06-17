@@ -1,0 +1,94 @@
+#header{}
+
+#navigation{}
+#leftnavigation{}
+#rightnavigation{ text-align: left}
+
+#content{ border-bottom-style:solid; border-bottom-width:2px}
+#content #normalcontent{ }
+#content .normalcontent{ }
+#content #leftcontent{ width:430px}
+#content #rightcontent{ width:430px}
+
+#extra{}
+#footer{}
+
+/* General ---------------------------------------------------------------- */
+body { font-size: 95%; font-family: "Lucida Grande", "Bitstream Vera Sans", Helvetica, Verdana, Arial, sans-serif; margin: 0; padding: 0}
+
+img { border: 0}
+h3 { font-size: 130%; margin: 1.25em 0 .5em}
+a { color: #147}
+a:hover { text-decoration: none}
+p { margin: 1.2em 0 .6em}
+/*h1 { margin: 0 0 .5em; font-size: 2em}*/
+h1 { margin: -20px -20px 0; padding: 10px 20px; font-size: 1.5em; text-shadow: -1px 2px 3px #bbb}
+h2 { padding: 10px 20px; font-size: 1.6em; text-shadow: -1px 2px 3px #bbb}
+
+h3, h4 { margin: .5em 0; font-size: 1.2em; font-weight: bold}
+
+.hidden { display: none}
+.clear { font-size: 1px; clear: both}
+.warning { color: #D42B27}
+
+.handle { display: none; cursor: move}
+.left { float:left}
+.right { float:right}
+.clear { clear:both}
+
+/* Site Title ------------------------------------------------------------- */
+#header #site-title { margin-top:19px; padding-top: 30px; padding-bottom: 30px; padding-left: 40px;}
+#header #site-title a, #header #site-title a:hover{background:#003D4C url(../../img/cakephp.logo.gif) no-repeat scroll left center; font-size:150%;  font-weight:bold; padding:0 0 0 80px;  text-shadow:-1px 2px 3px #111; text-decoration:none;  margin-top:19px; padding-top: 30px; padding-bottom: 30px}
+
+/* Site links ------------------------------------------------------------- */
+#header #site-links { font-size: 70%; right: 0; margin-top: 30px; font-weight: normal; text-align: right;}
+#header #site-links a, #site-links a:visited { text-decoration: none; font-weight: normal}
+#header #site-links a:hover, #site-links a:visited:hover { text-decoration: underline; font-weight: normal}
+
+/* Navigation ------------------------------------------------------------- */
+#navigation{ height:26px}
+#navigation ul{}
+#navigation li{ display:inline;  list-style:none;  border:none}
+#navigation a:link, 
+#navigation a:visited{ float:left;  margin-right:3px;  padding:6px 4px 5px;  font-size:13px;  line-height:16px;  font-weight:normal;  text-decoration:none !important}
+#navigation a:hover{}
+
+#navigation a:link.current, #navigation a:visited.current{ font-weight:bold;  text-decoration:none}
+#navigation .right{ float:right}
+
+/* Messages --------------------------------------------------------------- */
+#error, #reasons, #success, #notice { padding: 5px 20px; text-align: left}
+#error a { font-weight: bold}
+#success { }
+
+/* Actions ---------------------------------------------------------------- */
+.modify { float: left; margin-right: 10px; width: 430px}
+.list { float: left; margin-right: 10px; width: 430px; margin-right: 0px; padding-right: 0px}
+
+/* Footer ----------------------------------------------------------------- */
+#footer { font-size: 80%; float: left }
+#footer .stats { margin-top: -5px; font-size: .9em}
+
+/* Forms ------------------------------------------------------------------ */
+#bbcode_guide { background:#EEEEDD none repeat scroll 0 0; border-left:0.143em solid #DDDDCC; border-top:0.143em solid #DDDDCC; clear:both; height:14.286em; margin-bottom:0.429em; overflow:auto; padding:0.286em 0.214em 0.143em 0 }
+form div{ margin: 0 0; padding: 0 0}
+
+/* Colors Duke, Colors! --------------------------------------------------- */
+body, #extra, #footer{background-color:#6ad}
+body, #extra, #footer{background-color:#e5e5e5}
+#content{ background-color:#ffffff}
+#header{ background-color:#003d4c}
+#header #site-title a, #header #site-title a:hover, #header #site-links a, #header #site-links a:hover{ color:#ffffff}
+#header #site-links{ color:#888888}
+#navigation{ background-color:#003d4c}
+#leftnavigation ul li a, #rightnavigation ul li a{background-color:#00657F; border-color:#454545; color:#eeeeee}
+#leftnavigation ul li.current a, #rightnavigation ul li.current a{background-color:#eeeeee; border-color:#454545; color:#333333}
+#info { background: #EDFE86}
+#notice { background: #ffcc00; color: #fff}
+#error { background: #ee3322; color: #fff}
+#error a { color: #fff}
+#reasons { background: #FF7F00; color: #fff}
+#reasons a { color: #fff}
+#success { background: #008000; color: #fff}
+h1, h2 { color: #fff; background-color: #00657F; text-shadow: -1px 2px 3px #111}
+#content{ border-color: #c7c7c7}

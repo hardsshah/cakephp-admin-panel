@@ -1,0 +1,19 @@
+.links{ font:normal 9pt Arial,sans-serif; list-style:none; margin:0; padding:0 }
+.links li{ background: url("img/csg-4a0002df1478f.png") no-repeat top left; line-height:1.6em; padding:0; margin:0 0 0.6em; clear:left }
+.links img{ padding-right:4px; height:16px; width:16px; float:left }
+
+.icon-dcemu { background-position: 0 -48px }
+.icon-delicious { background-position: 0 -112px }
+.icon-facebook { background-position: 0 -176px }
+.icon-favicons { background-position: 0 -240px }
+.icon-generic { background-position: 0 -304px }
+.icon-github { background-position: 0 -368px }
+.icon-iusethis { background-position: 0 -432px }
+.icon-kenai { background-position: 0 -496px }
+.icon-linkedin { background-position: 0 -560px }
+.icon-noserub { background-position: 0 -624px }
+.icon-personal { background-position: 0 -688px }
+.icon-savant { background-position: 0 -752px }
+.icon-sun { background-position: 0 -816px }
+.icon-twitter { background-position: 0 -880px }
+.icon-wordpress { background-position: 0 -944px }
